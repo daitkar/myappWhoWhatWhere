@@ -1,0 +1,30 @@
+#map {
+  margin: 0;
+  padding: 0;
+  height: 50%;
+
+    @media screen and (min-height: 550px) {
+  		height: 60%;
+    }
+}
+
+.map-container {
+height: 100%;
+
+  .info {
+  	height: 50%;
+  	padding: 20px;
+
+  	@media screen and (min-height: 550px) {
+  		height: 28%;
+    }
+
+    h5 {
+    	color: orange;
+    }
+  }
+
+  small{
+    color: #1b6d85;
+  }
+}
